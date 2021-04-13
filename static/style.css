@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("static/images/bg1.jpg") no-repeat center;
+    background: url("images/bg1.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -305,7 +305,7 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-    background-image: url("static/images/skill1.jpg");
+    background-image: url("images/skill1.jpg");
 }
 
 .skills .carousel .card{
@@ -436,7 +436,24 @@ section .title::after{
     transform: scale(1.05);
 }
 
+/* .teams .max-width .box a{
 
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.teams .max-width .box a:hover{
+    color: crimson;
+    background: none;
+} */
 
 .teams .max-width .box a{
 color: #fff;
@@ -481,7 +498,10 @@ color: #fff;
     background: crimson!important;
 }
 
-
+/* contact section styling */
+/* .contact{
+    background-image: url("images/contact1.jpg");
+} */
 .contact .title::after{
     
     content: "get in touch";
